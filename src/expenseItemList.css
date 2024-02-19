@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+div.list
+{
+    margin: auto;
+    margin-top: 3rem;
+    width: 60%;
+    background-color: grey;
+    padding: 1rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.37);
+    border-radius: 1rem;
+}
+
+.options{
+    display: flex;
+}
+.options h3{
+    width: 83%;
+}
+.theme{
+    background-color: white;
+    color: black;
+}
+
+div.years {
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+}
+
+div.years h1{
+    cursor: pointer;
+    border-radius: 1.5px;
+    padding: 7px;
+    height: 2.5rem;
+    min-width: 5.5rem;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: light;
+}
+
+div.years button
+{
+    border: none;
+    border-radius:none ;
+    outline: none;
+    color: black;
+    background-color: white;
+}
+
+div.years button:focus,div.years button:active
+{
+    border: none;
+    outline: none;
+    background-color: darkgray;
+    color:black;
+}
+
+div.optionYears{
+    display: none;
+}
+
+div.years:hover div.optionYears
+{
+    display: flex;
+    flex-direction: column;    
+}
+
+.invisible{
+    display: none;
+}
+div.years:hover div.optionYears button:hover
+{    
+    margin: 0px;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+div.years h2,div.years button
+{
+    font-weight: light;
+    font-size: smaller;
+    text-align: center;
+    border: none;
+}

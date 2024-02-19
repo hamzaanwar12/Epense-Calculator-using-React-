@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    min-height: 5rem;
+    padding: 2rem;
+}
+form.active{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:darkkhaki;
+}
+form.inactive{
+    background-color: blueviolet;
+}
+div.input{
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+}
+div.line1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+form.inactive div.input{
+    display: none;
+}
+
+input{
+    color: black;
+    height: 3rem;
+    width: 13rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: larger;
+    padding: 12px;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 24rem;
+}
+button{
+    width: 8rem;
+    margin-left: 1.01rem;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+
+::placeholder{
+    font-style: italic;
+}
+
+.expenseDate ::placeholder{
+    font-style: italic;
+    font-weight: lighter;
+    color: lightgray;
+}
+
+
+
+
+
+
+
+

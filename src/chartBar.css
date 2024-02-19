@@ -1,0 +1,36 @@
+
+.inner{
+    border: 2px solid darkblue;
+    border-radius: 9px;
+    width: 11px;
+    height: 7rem;
+}
+
+.highlightExpense
+{
+
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    height: 7rem;    
+}
+div.inner{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.lightBar{
+    position: relative;
+    overflow: hidden;
+    transition: background-color,2s;
+}
+
+.month{
+    position: relative;
+    right: 9px;
+    text-align: center;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:brown;
+}

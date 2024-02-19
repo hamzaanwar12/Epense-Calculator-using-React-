@@ -1,0 +1,74 @@
+body{
+    /* background-color: rgba(55, 112, 98, 0.575); */
+    background-color: lightgreen;
+}
+*{
+    color: white;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div.date{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    padding: 7px;
+    border-radius: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    width: 5rem;
+    height: 5rem; 
+}
+
+.expenseItem
+{
+    margin: auto;
+    background-color:blueviolet ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.37);
+    margin-top: 1rem;
+    /* box-shadow: 2px 2px black; */
+}
+.date h1
+{
+    font-size: x-large;
+}
+
+.date h3,.date h4
+{    
+    font-size: medium;
+    height: 3rem;
+}
+
+.date h4{
+    font-size: 12px;
+}
+
+h1.item{
+    width: 65%;
+    margin-left: 1.5rem;
+}
+button{
+    font-size: larger;
+    position: relative;
+    background-color:crimson;
+    min-width:6rem;
+    min-height: 3rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.37);
+}
+button:focus,button:active{
+    outline: none;
+}
+
+optgroup{
+    position: relative;
+    bottom: 3rem;
+}

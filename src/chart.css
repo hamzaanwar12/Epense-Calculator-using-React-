@@ -1,0 +1,14 @@
+.chart{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;  
+    margin-top:  1rem;
+    background-color: burlywood;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    height: 10rem;
+    box-shadow: 1.5px 1.5px brown;
+}
